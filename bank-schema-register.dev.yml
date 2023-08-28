@@ -12,8 +12,6 @@ server:
       spring:
       application:
        name: register
-    servlet:
-           context-path: /book-service
     feign:
         client:
           config:
@@ -21,4 +19,4 @@ server:
               connectTimeout: 50000
               readTimeout: 50000
               loggerLevel: basic
-              decode404: true
+             # decode404: true
