@@ -17,7 +17,7 @@ server:
         client:
           config:
             default:
-              connectTimeout: 5000
-              readTimeout: 5000
+              connectTimeout: 50000
+              readTimeout: 50000
               loggerLevel: basic
               decode404: true
