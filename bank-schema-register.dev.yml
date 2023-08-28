@@ -10,10 +10,11 @@ server:
       level.com.netflix.eureka: OFF
       level.com.netflix.discovery: OFF
       spring:
-      application-name: register
-      #      servlet:
-      #       context-path: /book-service
-      feign:
+      application:
+       name: register
+    servlet:
+           context-path: /book-service
+    feign:
         client:
           config:
             default:
